@@ -1,0 +1,209 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+main {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: darkblue;
+}
+
+.emailcontainer{
+  /* border: 1px solid red; */
+  display: flex;
+  width: 60%;
+  height: 90%;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.left-side{
+  /* border: 1px solid red; */
+  /* border-radius: 20px; */
+  width: 50%;
+  height: 100%; 
+  padding: 50px;
+}
+
+
+
+h1{
+  /* border: 1px solid red; */
+  text-align: center;
+  margin-top: 20px;
+  font-size: 3em;
+}
+
+p{
+  /* border: 1px solid red; */
+margin-top: 20px;
+gap: 10px;
+font-size: 0.9em;
+}
+
+.logo{
+  /* border: 1px solid red; */
+  display: flex;
+  margin-top: 20px;
+  gap: 5px;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.logo2{
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+.logo3{
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+.h4{
+  margin-top: 20px;
+
+}
+
+.left-side img{
+  display: flex;
+  text-align: center;
+  gap: 20px;  
+}
+
+
+
+.mail{
+  border-radius: 20px;
+  width: 20vw;
+  height: 5vh;
+  /* border: none; */
+}
+
+.new{
+  /* border: 1px solid red; */
+  width:305.5px;
+  height: 8.5vh;
+  margin-top: 20px;
+  color:white;
+  background-color: darkblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-error{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+h4{
+  font-size: 0.8em;
+}
+
+.error {
+  color: red;
+  display: none;
+}
+
+.emailinput{
+ padding: 15px;   
+width: 305.5px;
+outline: none;
+border :1px solid black;
+border-radius: 5px;
+}
+
+button:hover{
+background-color:darkblue;
+
+}
+
+button:active{
+  transform: scale(0.96);
+}
+
+
+
+.right-side{
+  /* border: 1px solid blue;  */
+  height: 100%; 
+  width: 50%;
+  padding: 20px;
+}
+
+.right-side img {
+  width: 100%;
+  height: 100%;
+}
+
+.thankscontainer{
+  /* border: 1px solid red; */
+  height: 100vh;
+  background-color: darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.thankscard{
+  /* border: 2px solid black; */
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+h1{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+p{
+  /* border: 2px solid black; */
+  text-align: center;
+}
+
+.dismiss-btn{
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  background-color:darkblue;
+  width: 20vw;
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+
+button:hover{
+background-color:rgb(100, 100, 146);
+}
+
+button:active{
+  transform: scale(0.96);
+}
+
+
+
+
+
